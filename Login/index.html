@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login</title>
+</head>
+<body>
+       <section class = "bg-gray-100 min-h-screen flex flex-col items-center justify-center">
+
+
+                <!-- Login -->
+
+                <div id='Login' class=" bg-[#ffffff] flex rounded-2xl max-w-2xl px-10  mt-[120px]  items-center Flex flex-col md:flex-row">
+                    <div class="md:block hidden w-1/2 py-[80px] " >
+                        <img class=" rounded-2xl mb-8 " src="Login.jpeg" alt="">
+                        <a class="text-sm px-20 " href="./index.html#Signup">Create account</a>
+                    </div>
+                    <div class="md:w-1/2 px-10 mt-8 ">
+                        <h2 class="font-bold text-4xl  ">Login</h2>
+
+                        <form action="" class="flex flex-col gap-4">
+                            <input class="p-2 mt-8 rounded-xl border" type="text" name="email" placeholder="Email">
+                           <div class="relative ">
+                            <input class="p-2 rounded-xl border w-full  " type= "password" name="password" placeholder="password">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-eye absolute top-1/2 right-3  -translate-y-1/2  " viewBox="0 0 16 16">
+                                <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                                <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                              </svg>
+                           </div>
+                         <p class="text-xs font-light text-[#404040] "> Forgot Password</p>
+                            <button class="bg-[#6dabe4] text-white rounded-xl py-2 hover:scale-105 duration-300 mt-6 "><a href="./homepage.html"> Login </a></button>
+                        </form>
+
+
+                    </div>
+                    <div class="md:hidden w-1/2 py-[80px] items-center justify-center " >
+                        <img class=" rounded-2xl mb-6" src="Login.jpeg" alt="">
+                        <a class="text-sm flex flex-row " href="./index.html#Signup">Create account</a>
+                    </div>
+                
+                   </div>
+
+
+                <!-- Signup -->
+                <div id='Signup' class=" bg-[#ffffff] flex rounded-2xl max-w-3xl p-10 mt-[120px] mb-[120px] items-center Flex flex-col md:flex-row">
+                    <div class="md:w-1/2 px-10 mt-8 ">
+                        <h2 class="font-bold text-4xl  ">Sign up</h2>
+
+                        <form action="" class="flex flex-col gap-4">
+                            <input class="p-2 mt-8 rounded-xl border" type="text" name="email" placeholder="Email">
+                           <div class="relative ">
+                            <input class="p-2 rounded-xl border w-full  " type= "password" name="password" placeholder="password">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-eye absolute top-1/2 right-3  -translate-y-1/2  " viewBox="0 0 16 16">
+                                <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                                <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                              </svg>
+                           </div>
+                         
+                         
+                            <button class="bg-[#6dabe4] text-white rounded-xl py-2 hover:scale-105 duration-300  "> <a href="./homepage.html">  Sign up </a></button>
+                       
+                        </form>
+
+
+                        <div class="mt-6 grid grid-cols-3 items-center text-gray-400">
+                            <hr class="border-gray-400">
+                            <p class="text-center text-sm">OR</p>
+                            <hr class="border-gray-400"> 
+                        </div>
+
+                        <button class="bg-white border py-2 w-full rounded-xl mt-5 flex flex-row justify-center items-center text-sm hover:scale-105 duration-300 mb-8"><a class="flex flex-row " href ="./homepage.html">
+                            <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="20" height="25 " preserveAspectRatio="xMidYMid" viewBox="0 0 256 262" id="google"><path fill="#4285F4" d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"></path><path fill="#34A853" d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"></path><path fill="#FBBC05" d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782"></path><path fill="#EB4335" d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"></path></svg>
+                      <p> Sign up with Google </p> </a>
+                        </button>
+                        
+                        <a class="text-sm  " href="./index.html#Login">Already a user?</a>
+
+                    </div>
+                    
+                        <div class="md:block w-1/2 py-[80px] " >
+                            <img class=" rounded-2xl" src="signup.jpg" alt="">
+                        </div>
+                       
+                </div>
+
+                </section>
+
+</body>
+</html>
